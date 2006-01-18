@@ -1,4 +1,5 @@
 Summary:	MIBs for HP StorageWorks SAN Switches v5.x firmware
+Summary(pl):	MIB-y dla switchy SAN HP StorageWorks z firmware v5.x
 Name:		net-snmp-mibs-hp-storageworks-san-switch
 Version:	5.0.x
 Release:	1
@@ -13,6 +14,9 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 MIBs for B-Series HP StorageWorks SAN Switches that run v5.x firmware.
+
+%description -l pl
+MIB-y dla switchy HP StorageWorks serii B z firmware w wersji 5.x.
 
 %prep
 %setup -q -c
