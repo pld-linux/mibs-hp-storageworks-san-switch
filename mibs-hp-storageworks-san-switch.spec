@@ -8,6 +8,7 @@ Group:		Applications/System
 Source0:	ftp://ftp.hp.com/pub/softlib/software6/COL13337/co-37211-1/v%{version}_mibs.zip
 # Source0-md5:	9f85e4a28b988289ec26580c0fadade1
 URL:		http://www.hp.com/rnd/software/MIBs.htm
+BuildRequires:	unzip
 Requires:	mibs-dirs
 Obsoletes:	net-snmp-mibs-hp-storageworks-san-switch
 BuildArch:	noarch
