@@ -2,7 +2,7 @@ Summary:	MIBs for HP StorageWorks SAN Switches v5.x firmware
 Summary(pl.UTF-8):	MIB-y dla switchy SAN HP StorageWorks z firmware v5.x
 Name:		mibs-hp-storageworks-san-switch
 Version:	5.0.x
-Release:	1
+Release:	2
 License:	Unknown
 Group:		Applications/System
 Source0:	ftp://ftp.hp.com/pub/softlib/software6/COL13337/co-37211-1/v%{version}_mibs.zip
